@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 const Main=()=>{
     return(
         <div className="container">
@@ -18,7 +18,9 @@ const Main=()=>{
                     </ul>
                 </div>
                 <div className="c4">
-                    <Link></Link>
+
+                    <Link to="">Browse Books</Link>
+                    <Link to="">Donate Book</Link>
                 </div>
             </div>
             <div className="right"></div>
