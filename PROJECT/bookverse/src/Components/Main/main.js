@@ -20,7 +20,7 @@ const Main=()=>{
                 </div>
                 <div className="c4">
 
-                    <Link to="">Browse Books</Link>
+                    <Link to="/buy">Browse Books</Link>
                     <Link to="">Donate Book</Link>
                 </div>
             </div>

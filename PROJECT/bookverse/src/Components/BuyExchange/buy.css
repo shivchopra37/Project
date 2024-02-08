@@ -1,0 +1,16 @@
+.book-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #C7F9CC;
+
+}
+.book-container .headingbook h1{
+    color: #0C3A2D;
+    font-weight: 500;
+}
+
+.book-container .bookcard-container{
+    display: flex;
+    flex-wrap: wrap;
+}
