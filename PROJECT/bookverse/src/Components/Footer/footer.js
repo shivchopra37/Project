@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css'; // Import the CSS file for styling
 
+
 function Footer() {
   return (
     <footer className="footer">
@@ -19,7 +20,7 @@ function Footer() {
             <i class="fa-brands fa-instagram">
                 </i>
                 </a>
-                <a href="www.linkedin.com/in/sushant-arora-8a2a4828a" target='_blank'>
+                <a href="https://www.linkedin.com/in/sushant-arora-8a2a4828a" target='_blank'>
                 <i class="fa-brands fa-linkedin-in"></i>
                 </a>
                 </div>

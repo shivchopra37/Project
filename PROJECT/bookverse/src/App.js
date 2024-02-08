@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/header';
 import Footer from './Components/Footer/footer';
+import Form from './Components/Page2/form';
 
 import Main from './Components/Main/main';
 import {
@@ -18,7 +19,8 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Main />}/>
+        <Route path="/form" element={<Form />}/>
       </Routes>
       <Footer />
     </Router>
