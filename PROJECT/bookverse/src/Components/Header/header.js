@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./header.css"
 const Header=()=>{
     return(
@@ -7,11 +8,11 @@ const Header=()=>{
     <div className="logo">BookVerse</div>
     <div className="other_than_logo">
     <ul className="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Sell/Donate</a></li>
-      <li><a href="#">Buy/Exchange</a></li>
-      <li><a href="#">E-Books</a></li>
-      <li><a href="#">Audio-Books</a></li>
+      <li><Link to="#">Home</Link></li>
+      <li><Link to="#">Sell/Donate</Link></li>
+      <li><Link to="/buy">Buy/Exchange</Link></li>
+      <li><Link to="#">E-Books</Link></li>
+      <li><Link to="#">Audio-Books</Link></li>
     </ul>
     </div>
   </nav>

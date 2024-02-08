@@ -22,6 +22,8 @@ const Main=()=>{
 
                     <Link to="">Browse Books</Link>
                     <Link to="/form">Donate Book</Link>
+                    <Link to="/buy">Browse Books</Link>
+                    <Link to="">Donate Book</Link>
                 </div>
             </div>
             <div className="right">
