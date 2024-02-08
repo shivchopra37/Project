@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
+import './main.css'
 const Main=()=>{
     return(
-        <div className="container">
+        <div className="main-container">
             <div className="left">
                 <div className="c1">
                     <p>There is only thing that could replace a Book. The Next Book.</p>
                 </div>
                 <div className="c2">
                     <h1>
-                        Discover, Find, Share Your Books
+                        Discover, Find, Share <br />Your Books
                     </h1>
                 </div>
                 <div className="c3">
@@ -23,7 +24,21 @@ const Main=()=>{
                     <Link to="">Donate Book</Link>
                 </div>
             </div>
-            <div className="right"></div>
+            <div className="right">
+            <img
+                src="/Images/book1.png"
+                alt=""
+                useMap="#image_map"
+                style={{
+                    width: '80%',
+                    height:'80%',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center',
+                    // height:"30px",
+                }}
+              />
+            </div>
             
         </div>
     )
