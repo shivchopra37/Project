@@ -11,6 +11,9 @@ const BookPage=(props)=>{
 
         fetch('https://community-purgomalum.p.rapidapi.com/json', {
         method: 'GET',
+        params:{
+            text:{inputValue}
+        },
         headers: {
             'x-rapidapi-host': 'community-purgomalum.p.rapidapi.com',
             'x-rapidapi-key': '91ed35f487mshb3b16b3df9c6255p1a9a88jsn5bae293bbf7b', // replace your RapidAPI key
