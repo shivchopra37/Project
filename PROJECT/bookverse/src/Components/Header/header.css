@@ -9,26 +9,32 @@ nav {
     background-color: #C7F9CC;
     color: #0C3A2D;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
   }
   
   .logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     font-family: 'Marko One', sans-serif;
     font-weight: bolder;
     font-size: 1.75rem;
     margin-left: 2em;
   }
   .other_than_logo{
-    width: 100%;
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
   
   .nav-links {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     padding-left: .25em;
     font-size: 1.25rem;
     font-weight: bold;

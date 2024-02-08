@@ -1,0 +1,23 @@
+/* Footer.css */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+  }
+  
+  .footer-content {
+    max-width: 960px; /* Adjust the width as needed */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
