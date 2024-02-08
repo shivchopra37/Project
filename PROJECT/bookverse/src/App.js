@@ -12,6 +12,7 @@ import {
   Routes,
   Link,
 } from "react-router-dom";
+import ReviewsSection from './Components/page 4/ReviewSection';
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/buy" element={<BuyExchange />} />
+        <Route path="/review" element={<ReviewsSection/>}/>
       </Routes>
       <Footer />
     </Router>
