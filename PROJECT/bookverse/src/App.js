@@ -5,6 +5,7 @@ import Footer from './Components/Footer/footer';
 
 import Main from './Components/Main/main';
 import BuyExchange from './Components/BuyExchange/buy';
+import BookPage from './Components/BookPage/bookpage';
 import {
   HashRouter as Router,
   RouterProvider,
@@ -21,6 +22,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/buy" element={<BuyExchange />} />
+        <Route path="/sample" element={<BookPage />} />
+
       </Routes>
       <Footer />
     </Router>
