@@ -35,6 +35,8 @@ const BookCard=()=>{
 }
 
 const BuyExchange=()=> {
+
+    const booklist=
   return (
     <>
         <div className="book-container">
